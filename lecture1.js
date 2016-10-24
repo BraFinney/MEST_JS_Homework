@@ -4,22 +4,35 @@
 
 var 1stCar = 'Doge';
 //Invalid because it starts with a number
+var firstCar = 'Doge';
+
 var var = 'variable';
 //Invalid because var is a reserved work
+var something = 'variable';
+
 var first name = 'Jerry';
 //Invalid because it contains a space
+ver firstName = 'Jerry';
+
 var Sch00lName = 'MEST';
 //InValid because it starts with a capital and does not follow the camelcase format
+var schoolName = 'MEST';
+
 var totalnumber = 100;
 //Invalid because it is  ot humna readable
+var totalNumber = 100;
 
 /*
  * 2. Are the following variable valid? If it is not please explain it and correct them by using the best practise
  */
 var greeting  =  'It's nice to me you today!';
 //Invalid since you cant use sigle quotes in strings with apotrophe
+var greeting = "It's nice to meet you today!";
+
+
 var response = "Ashwin said,  "Yes Sir!"";
 //Invalid since Yes Sir! is not in quotation marks
+var response = "Ashwin said, 'Yes Sir!' ";
  
 
 
