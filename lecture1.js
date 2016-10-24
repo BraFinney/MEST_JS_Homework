@@ -9,7 +9,7 @@ var var = 'variable';
 var first name = 'Jerry';
 //Invalid because it contains a space
 var Sch00lName = 'MEST';
-//Valid because it obeys both the human readable rules
+//InValid because it starts with a capital and does not follow the camelcase format
 var totalnumber = 100;
 //Invalid because it is  ot humna readable
 
@@ -34,6 +34,7 @@ var response = "Ashwin said,  "Yes Sir!"";
 var pizza1 = new Object();
 pizza.meat = "Goat";
 pizza.flourType = "Local";
+pizza.size = "large"
 pizza.vegies = true;
 
 
@@ -110,9 +111,10 @@ console.log(studentScores(scores))
 /*
  * 8. var studentScores = [50, 67, 80, 90, 100, 30, 88, 68]; write a program by using studentScores array , array.forEach and conditions.
  */
+function studentScores (array) {
+	array.forEach(function(score) {
+	    console.log(score);
+	});
+}
 
- function studentsScores2 (array) {
- 	
-
- }
 
